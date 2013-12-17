@@ -1,0 +1,57 @@
+@import url("http://fonts.googleapis.com/css?family=Roboto+Slab:300,700,100,400");
+.roboto,
+body,
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6,
+body header#site-head #site-head-content .blog-description {
+  font-family: 'Roboto Slab', sans-serif;
+  font-weight: 300;
+}
+body {
+  font-size: 20px;
+}
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6 {
+  font-weight: 700;
+}
+body a:hover {
+  color: #f2bc1b;
+}
+body blockquote {
+  margin-left: 0;
+  border-left-color: #ddd;
+}
+body header#site-head {
+  background-image: url("../img/header.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: #a76942;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+body header#site-head #site-head-content {
+  text-align: right;
+}
+body header#site-head #site-head-content .blog-title {
+  font-size: 5.5rem;
+}
+body header#site-head #site-head-content .blog-description {
+  font-size: 2.5rem;
+}
+body .post {
+  border-bottom-width: 3px;
+}
+body .post:after {
+  border-width: 2px;
+  bottom: -7px;
+}
