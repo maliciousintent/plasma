@@ -93,6 +93,12 @@ body .post:after {
   border-width: 2px;
   bottom: -7px;
 }
+body .post-meta {
+  width: 200px;
+  text-align: right;
+  left: -220px;
+  top: 15px;
+}
 body .pagination {
   display: none;
 }
