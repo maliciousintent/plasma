@@ -15,8 +15,10 @@
 
     <meta property="og:title" content="{{@blog.title}}" />
     {{#if post}}
-    <meta property="og:url" content='{{url absolute="true"}}' />
-    <meta property="og:description" content="{{post.title}} - {{ date post.published_at format='DD MMM YYYY' }}" />
+    {{#post}}
+    <meta property="og:url" content="{{url absolute="true"}}" />
+    <meta property="og:description" content="{{title}} - {{ date published_at format='DD MMM YYYY' }}" />
+    {{/post}}
     {{else}}
     <meta property="og:url" content="{{@blog.url}}" />
     <meta property="og:description" content="{{@blog.description}}" />
