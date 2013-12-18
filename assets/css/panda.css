@@ -57,3 +57,14 @@ body .post:after {
 body .pagination {
   display: none;
 }
+body.home-template .content .post .post-footer {
+  border-top: none;
+  padding: 0;
+  margin: 0;
+}
+body.home-template .content .post .post-footer .share {
+  top: 0;
+  text-align: right;
+  position: relative;
+  width: 100%;
+}
