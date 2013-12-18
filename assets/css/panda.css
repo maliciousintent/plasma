@@ -54,3 +54,6 @@ body .post:after {
   border-width: 2px;
   bottom: -7px;
 }
+body .pagination {
+  display: none;
+}

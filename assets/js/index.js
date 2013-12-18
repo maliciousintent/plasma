@@ -22,7 +22,8 @@
       var _nextPosts = $('.pagination a.older-posts');
       if (_nextPosts.length > 0) {
         var _nextPostsLink = $(_nextPosts).attr('href');
-        if ($(window).scrollTop() == ($(document).height() - $(window).height())) {
+        //console.log($(window).scrollTop(), /*$(document).height(), $(window).height(),*/ $(document).height() - $(window).height() - $('footer').height());
+        if ($(window).scrollTop() >= ($(document).height() - $(window).height() - $('footer').height())) {
           $.ajax({
             url: _nextPostsLink,
             success: function (data) {
