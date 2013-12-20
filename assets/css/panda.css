@@ -67,6 +67,7 @@ body a:hover {
 body blockquote {
   margin-left: 0;
   border-left-color: #ddd;
+  font-style: normal;
 }
 body header#site-head {
   background-image: url("../img/header.jpg");
