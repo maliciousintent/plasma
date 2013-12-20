@@ -72,7 +72,7 @@ body a {
 }
 body a:hover {
   color: #f2bc1b;
-  border-bottom-color: rgba(242,188,27,0.8);
+  border-bottom-color: rgba(242,188,27,0.4);
 }
 body blockquote {
   margin-left: 0;
