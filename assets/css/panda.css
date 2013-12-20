@@ -61,8 +61,18 @@ body h5,
 body h6 {
   font-weight: 700;
 }
+body a {
+  text-decoration: none !important;
+  border-bottom: 3px solid #ebf2f6;
+  -webkit-transition: color ease 0.3s, border-color ease 0.3s;
+  -moz-transition: color ease 0.3s, border-color ease 0.3s;
+  -o-transition: color ease 0.3s, border-color ease 0.3s;
+  -ms-transition: color ease 0.3s, border-color ease 0.3s;
+  transition: color ease 0.3s, border-color ease 0.3s;
+}
 body a:hover {
   color: #f2bc1b;
+  border-bottom-color: rgba(242,188,27,0.8);
 }
 body blockquote {
   margin-left: 0;

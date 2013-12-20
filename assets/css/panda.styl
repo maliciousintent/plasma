@@ -62,8 +62,12 @@ body
     font-weight 700
 
   a
+    text-decoration none !important
+    border-bottom 3px solid #EBF2F6
+    transition color ease 0.3s, border-color ease 0.3s
     &:hover
       color _linkhovercolor
+      border-bottom-color rgba(_linkhovercolor, 0.8)
 
   blockquote
     margin-left 0
