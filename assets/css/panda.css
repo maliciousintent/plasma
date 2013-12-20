@@ -110,8 +110,8 @@ body .pagination {
   display: none;
 }
 body .content .post-title {
-  padding-bottom: 10px;
-  margin-bottom: 10px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
   border-bottom: 3px solid #ebf2f6;
 }
 body .content .post {
