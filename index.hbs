@@ -34,14 +34,14 @@
         <footer class="post-footer">
 
             <section class="share">
-                <a class="plasma-icon-twitter" href="http://twitter.com/share?text={{title}} at {{url absolute="true"}}"
+                <a class="plasma-icon-twitter" href="http://twitter.com/share?text={{title}}&url={{url absolute="true"}}"
                     onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
                     <span class="hidden">Twitter</span>
                 </a>
-                <a class="plasma-icon-tumblr" href="" onclick="return false;">
+                <a class="plasma-icon-tumblr" href="http://www.tumblr.com/share/link?url={{url absolute="true"}}&name={{title}}" onclick="window.open(this.href, 'tumblr-share', 'width=440,height=400');return false;">
                     <span class="hidden">Tumblr</span>
                 </a>
-                <a class="plasma-icon-facebook" href="http://www.facebook.com/sharer/sharer.php?p[url]={{url absolute="true"}}&p[title]={{title}}"
+                <a class="plasma-icon-facebook" href="https://www.facebook.com/sharer.php?s=100&p[title]={{title}}&p[url]={{url absolute="true"}}"
                     onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
                     <span class="hidden">Facebook</span>
                 </a>
