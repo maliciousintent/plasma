@@ -72,11 +72,13 @@ body a {
 }
 body a:hover {
   color: #f2bc1b;
-  border-bottom-color: rgba(242,188,27,0.4);
+  border-bottom-color: rgba(242,188,27,0.3);
 }
 body blockquote {
   margin-left: 0;
   border-left-color: #ddd;
+}
+body blockquote p {
   font-style: normal;
 }
 body header#site-head {
