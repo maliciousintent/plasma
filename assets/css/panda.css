@@ -63,16 +63,9 @@ body h6 {
 }
 body a {
   text-decoration: none !important;
-  border-bottom: 3px solid #ebf2f6;
-  -webkit-transition: color ease 0.3s, border-color ease 0.3s;
-  -moz-transition: color ease 0.3s, border-color ease 0.3s;
-  -o-transition: color ease 0.3s, border-color ease 0.3s;
-  -ms-transition: color ease 0.3s, border-color ease 0.3s;
-  transition: color ease 0.3s, border-color ease 0.3s;
 }
 body a:hover {
   color: #f2bc1b;
-  border-bottom-color: rgba(242,188,27,0.3);
 }
 body blockquote {
   margin-left: 0;
@@ -108,6 +101,17 @@ body .post:after {
 }
 body .pagination {
   display: none;
+}
+body .post-content a {
+  border-bottom: 3px solid #ebf2f6;
+  -webkit-transition: color ease 0.3s, border-color ease 0.3s;
+  -moz-transition: color ease 0.3s, border-color ease 0.3s;
+  -o-transition: color ease 0.3s, border-color ease 0.3s;
+  -ms-transition: color ease 0.3s, border-color ease 0.3s;
+  transition: color ease 0.3s, border-color ease 0.3s;
+}
+body .post-content a:hover {
+  border-bottom-color: rgba(242,188,27,0.3);
 }
 body .content .post-title {
   padding-bottom: 10px;
