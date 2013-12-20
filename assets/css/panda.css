@@ -139,6 +139,7 @@ body .content .post .post-footer .share a {
   -ms-filter: none;
   filter: none;
   text-decoration: none;
+  cursor: pointer;
 }
 body .content .post .post-footer .share a.plasma-icon-twitter:hover {
   color: #6df;
